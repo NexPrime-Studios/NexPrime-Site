@@ -2,181 +2,269 @@
 <html lang="pt-BR">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolunia - Site Oficial</title>
 
-<title>Boolunia - Informações Legais</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-<style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
 
-body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#f4f7fb;
-    color:#333;
-}
+        header {
+            background: linear-gradient(135deg, #55d6ff, #70f5b5);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
 
-header{
+        header h1 {
+            margin: 0;
+            font-size: 52px;
+        }
 
-    background:linear-gradient(135deg,#55d6ff,#70f5b5);
-    color:white;
-    padding:60px 20px;
-    text-align:center;
+        header p {
+            font-size: 21px;
+            margin: 10px 0 0;
+        }
 
-}
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
 
-header h1{
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .08);
+        }
 
-    margin:0;
-    font-size:48px;
+        .card h2 {
+            margin-top: 0;
+            color: #222;
+        }
 
-}
+        .card p:last-child {
+            margin-bottom: 0;
+        }
 
-header p{
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
 
-    font-size:20px;
-    margin-top:10px;
+        .button:hover {
+            background: #2563eb;
+        }
 
-}
+        .legal-title {
+            text-align: center;
+            margin: 45px 0 25px;
+        }
 
-.container{
+        footer {
+            margin-top: 60px;
+            padding: 30px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
 
-    max-width:850px;
-    margin:50px auto;
-    padding:0 20px;
+        @media (max-width: 600px) {
+            header {
+                padding: 50px 20px;
+            }
 
-}
+            header h1 {
+                font-size: 40px;
+            }
 
-.card{
+            header p {
+                font-size: 18px;
+            }
 
-    background:white;
-    border-radius:15px;
-    padding:25px;
-    margin-bottom:25px;
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+            .container {
+                margin: 30px auto;
+            }
 
-}
-
-.card h2{
-
-    margin-top:0;
-
-}
-
-.button{
-
-    display:inline-block;
-    margin-top:15px;
-    padding:12px 20px;
-    background:#3b82f6;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
-
-}
-
-.button:hover{
-
-    background:#2563eb;
-
-}
-
-footer{
-
-    margin-top:60px;
-    padding:30px;
-    text-align:center;
-    color:#777;
-    font-size:14px;
-
-}
-
-</style>
-
+            .card {
+                padding: 22px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<header>
+    <header>
+        <h1>Boolunia 👻</h1>
+        <p>Jogo de sinuca, estratégia e coleção</p>
+    </header>
 
-<h1>Boolunia 👻</h1>
+    <main class="container">
 
-<p>Documentação oficial do aplicativo</p>
+        <section class="card">
+            <h2>Sobre o Boolunia</h2>
 
-</header>
+            <p>
+                Boolunia é um jogo de sinuca com elementos de estratégia,
+                progressão e coleção. Durante as partidas, o jogador mira,
+                controla a força da tacada e encaçapa bolas para alcançar
+                metas de pontuação, ganhar fichas e avançar por novos desafios.
+            </p>
 
-<div class="container">
+            <p>
+                Entre as partidas, o jogador pode organizar sua mesa,
+                adquirir e combinar diferentes bolas, equipar amuletos
+                e enfrentar chefes que modificam as condições das partidas.
+            </p>
 
-<div class="card">
+            <p>
+                O jogo possui modo campanha, modo infinito, sistema de
+                progressão, recompensas, personalização e ranking global.
+            </p>
+        </section>
 
-<h2>Política de Privacidade</h2>
+        <section class="card">
+            <h2>Login com Google</h2>
 
-<p>
+            <p>
+                O Boolunia oferece a opção de <strong>Entrar com Google</strong>
+                no Android para autenticar e identificar a conta do jogador.
+            </p>
 
-Conheça como os dados dos usuários são coletados,
-utilizados e protegidos durante o uso do Boolunia.
+            <p>
+                Ao escolher essa opção, uma credencial de identidade do Google
+                é utilizada pelo Unity Authentication para criar ou recuperar
+                a conta do jogador e permitir o acesso aos recursos online
+                associados à conta, como o ranking global.
+            </p>
 
-</p>
+            <p>
+                O Boolunia não utiliza o Login com Google para acessar
+                Gmail, Google Drive, contatos, calendário ou arquivos
+                da conta Google.
+            </p>
+        </section>
 
-<a class="button" href="privacy.html">
+        <section class="card">
+            <h2>Serviços online</h2>
 
-Ler Política de Privacidade
+            <p>
+                Jogadores autenticados podem utilizar recursos online
+                associados à conta do jogo, incluindo o ranking global
+                e serviços necessários para identificação e manutenção
+                da sessão do jogador.
+            </p>
 
-</a>
+            <p>
+                Também é possível utilizar o Boolunia sem uma conta.
+                Alguns recursos que dependem de autenticação e serviços
+                online podem não estar disponíveis nesse modo.
+            </p>
+        </section>
 
-</div>
+        <section class="card">
+            <h2>Uso das APIs e serviços do Google</h2>
 
-<div class="card">
+            <p>
+                Os serviços de identidade do Google são utilizados pelo
+                Boolunia exclusivamente para autenticação e identificação
+                da conta do jogador no Android.
+            </p>
 
-<h2>Exclusão de Conta</h2>
+            <p>
+                O aplicativo não utiliza APIs do Google para acessar Gmail,
+                Google Drive, contatos, calendário ou outros dados privados
+                desses serviços.
+            </p>
 
-<p>
+            <p>
+                O Boolunia não utiliza APIs do Google para funcionalidades
+                de inteligência artificial generativa.
+            </p>
+        </section>
 
-Saiba como solicitar a exclusão da sua conta
-e dos dados associados.
+        <h2 class="legal-title">Informações e suporte</h2>
 
-</p>
+        <section class="card">
+            <h2>Política de Privacidade</h2>
 
-<a class="button" href="delete-account.html">
+            <p>
+                Conheça como os dados dos usuários são coletados,
+                utilizados e protegidos durante o uso do Boolunia.
+            </p>
 
-Excluir Conta
+            <a class="button" href="privacy.html">
+                Ler Política de Privacidade
+            </a>
+        </section>
 
-</a>
+        <section class="card">
+            <h2>Termos de Serviço</h2>
 
-</div>
+            <p>
+                Consulte os termos e condições aplicáveis ao uso
+                do Boolunia e de seus serviços.
+            </p>
 
-<div class="card">
+            <a class="button" href="terms.html">
+                Ler Termos de Serviço
+            </a>
+        </section>
 
-<h2>Contato</h2>
+        <section class="card">
+            <h2>Exclusão de Conta</h2>
 
-<p>
+            <p>
+                Saiba como solicitar a exclusão da sua conta
+                e dos dados associados.
+            </p>
 
-Caso tenha dúvidas, sugestões ou precise de suporte,
-entre em contato conosco.
+            <a class="button" href="delete-account.html">
+                Solicitar Exclusão de Conta
+            </a>
+        </section>
 
-</p>
+        <section class="card">
+            <h2>Contato e suporte</h2>
 
-<p>
+            <p>
+                Caso tenha dúvidas, sugestões ou precise de suporte
+                relacionado ao Boolunia, entre em contato com a
+                NexPrime Studios.
+            </p>
 
-<b>Email:</b><br>
+            <p>
+                <strong>E-mail:</strong><br>
+                nexprime.studio@gmail.com
+            </p>
+        </section>
 
-nexprime.studio@gmail.com
+    </main>
 
-</p>
-
-</div>
-
-</div>
-
-<footer>
-
-© 2026 NexPrime Studios.<br>
-
-Todos os direitos reservados.
-
-</footer>
+    <footer>
+        © 2026 NexPrime Studios.<br>
+        Todos os direitos reservados.
+    </footer>
 
 </body>
 
